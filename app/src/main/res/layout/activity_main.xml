@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+
+
+<LinearLayout
+    android:id="@+id/positionResult"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginTop="0dp">
+
+    <EditText
+        android:id="@+id/serverAddressInput"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Server Address"
+        android:inputType="textUri"
+        android:textSize="18dp" />
+
+    <!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="415dp" >-->
+
+<!--        -->
+<!--    </ScrollView>-->
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/findPositionBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_weight="0"
+        android:clickable="true"
+        android:text="Find Position" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Result Output"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
